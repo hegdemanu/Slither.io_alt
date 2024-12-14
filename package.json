@@ -1,0 +1,20 @@
+{
+  "name": "snake-multiplayer-server",
+  "version": "1.0.0",
+  "description": "WebSocket-based Multiplayer Snake Game Server",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["websocket", "multiplayer", "snake", "game"],
+  "author": "Manu",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
